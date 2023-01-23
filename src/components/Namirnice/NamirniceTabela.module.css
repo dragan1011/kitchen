@@ -1,0 +1,41 @@
+.dijeteWrapper{
+    position: relative;
+    margin: 0 50px;
+    margin-top: 1rem;
+}
+.cell{
+    width: 20rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.row{
+    display: flex;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sifra{
+    font-family: 'Space Mono', monospace;
+}
+.sifra, .naziv{
+    width: 15rem;
+    border-right: 1px solid black;
+}
+.detalji{
+    width: 15rem;
+    border-right: 1px solid black;
+}
+.opis{
+    width: 15rem;
+    border-right: 1px solid black;
+}
+.broj{
+    width: 15rem;
+    border-right: 1px solid black;
+}
+.naziv{
+    font-weight: bold;
+}

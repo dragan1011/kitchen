@@ -1,0 +1,13 @@
+.navigation{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .title{
+    margin-top: 2px;
+  }
+  .loader{
+    margin-top: 10rem;
+  }
+  

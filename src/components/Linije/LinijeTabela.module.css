@@ -1,0 +1,37 @@
+.dijeteWrapper{
+    position: relative;
+    margin: 0 50px;
+    margin-top: 1rem;
+}
+.cell{
+    width: 20rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.row{
+    display: flex;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.lokacija{
+    font-weight: bold;
+}
+.lokacija{
+    width: 15%;
+    border-right: 1px solid black;
+}
+.naziv{
+    width: 20%;
+    border-right: 1px solid black;
+}
+.odjel{
+  justify-content: center;
+    width: 65%;
+}
+.x:hover{
+color: red;
+}

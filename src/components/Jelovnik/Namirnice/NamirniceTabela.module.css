@@ -1,0 +1,34 @@
+.dijeteWrapper{
+    position: relative;
+    margin: 0 5px;
+    margin-top: 1rem;
+}
+.cell{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.row{
+    display: flex;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sifraNamirnica{
+    font-family: 'Space Mono', monospace;
+    width: 33.33%;
+    border-right: 1px solid black;
+}
+.nazivNamirnica{
+    width: 33.33%;
+    border-right: 1px solid black;
+}
+.naStanjuNamirnica{
+    width: 33.33%;
+    border-right: 1px solid black;
+}
+.nazivNamirnica{
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.dijeteWrapper{
+    position: relative;
+    margin: 0 5px;
+    margin-top: 1rem;
+}
+.cell{
+    width: 20rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.row{
+    display: flex;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.naziv, .sifra,.grupa,.magacin{
+    width: 25%;
+}
+.sifra{
+    font-family: 'Space Mono', monospace;
+}
+.naziv, .sifra,.grupa{
+    border-right: 1px solid black;
+}
+.x:hover{
+color: red;
+}

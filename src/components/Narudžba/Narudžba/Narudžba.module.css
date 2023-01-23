@@ -1,0 +1,207 @@
+.dijeteWrapper{
+    position: relative;
+    margin: 0 50px;
+    margin-top: 1rem;
+    width: 90%;
+}
+.prikazJelovnik{
+    display: flex;
+    width: 100%;
+}
+.dijelovi{
+    width: 100%;
+}
+.jelovnik{
+    overflow-y: scroll;
+}
+.components{
+    display: flex;
+    margin: 10px 50px;
+}
+.add{
+    margin-left: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color:  #14213d;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 5rem;
+    margin-bottom: 15px;
+}
+.toggle{
+    scale: 1.1;
+    margin-left: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+    background-color:  #14213d;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.cell{
+    width: 20rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.heading{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.naziv{
+    width: 100%;
+}
+.nazivJelo, .sifraJelo,.grupaJelo,.magacinJelo{
+    width: 25%;
+}
+.nazivNamirnica, .sifraNamirnica, .grupaNamirnica, .jmNamirnica, .jestiviDioNamirnica , .naStanjuNamirnica, .napomenaNamirnica{
+    width: 33.33%;
+}
+.dijeteNardžba{
+    width: 35%;
+}
+.dorucakNardžba, .rucakNardžba, .veceraNardžba{
+    width: 23.3%;
+}
+.row_heading{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+    background-color: beige;
+    margin: 0 5px;
+    border-radius: 5px 5px 0 0 ;
+}
+.row_footer{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5px;
+    border-top: 1px solid black;
+    background-color: beige;
+    border-radius: 0 0 5px 5px ;
+}
+.naziv{
+    font-weight: bold;
+}
+.search{
+    width: 15rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+}
+.searchJelo{
+    width: 15rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+}
+.searchJelo:focus{
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+.search:focus{
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+.position{
+    justify-content: center;
+}
+
+.input{
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    outline: none;
+    margin-right: 5px;
+    width: 11.3rem;
+}
+.input:focus{
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+.inputWrapper{
+ width: 100%;
+ margin-bottom: 20px;
+}
+
+@media screen and (min-width: 75%) {
+   .input{
+    width: 5rem;
+   }
+  }
+  .dataList{
+    width: 100%;
+  }
+  .labelUpozorenja{
+    font-family: 'Poppins', sans-serif;
+    color: #e94d4d;
+  }
+
+  .dateWrapper{
+    position: absolute;
+    margin-top: -8rem;
+    margin-left: 5rem;
+    z-index: 15;
+  }
+  .Calendar{
+    position: absolute;
+    left: -15%;
+    top: 70%;
+  }
+  .options{
+    position: absolute;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin-top: -1rem;
+    width: 11.3rem;
+    margin-left: 0.1rem;
+    background-color: white;
+    z-index: 5;
+  }
+  .smallInputWrapper{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: auto;
+    margin-right:auto ;
+  }
+.options2{
+    position: absolute;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin-top: -1rem;
+    width: 11.3rem;
+    margin-left: 11.85rem;
+    background-color: white;
+    z-index: 5;
+}
+.forma{
+  display: flex;
+  flex-direction: row;
+}
+
+
+   .border{
+    border: 1px solid #e94d4d;
+   }
+   .Calendar{
+    border: 1px solid black;
+   }

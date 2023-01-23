@@ -1,0 +1,56 @@
+.dijeteWrapper{
+    position: relative;
+    margin: 0 5px;
+    margin-top: 1rem;
+}
+.cell{
+    width: 20rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.velikiRed{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.row{
+    display: flex;
+    cursor: pointer;
+}
+.obrok{
+    width: 16.6666666667%;
+    border-bottom: 1px solid rgba(0, 0, 0, 30%);
+    border-right: 1px solid rgba(0, 0, 0, 30%);
+}
+.zadnji{
+    width: 16.6666666667%;
+    border-bottom: 1px solid rgba(0, 0, 0, 30%);
+}
+.naziv{
+    width: 100%;
+    justify-content: center;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(0, 0, 0, 30%);
+}
+.border{
+    border-top: 2px solid rgba(0, 0, 0, 30%);
+    border-bottom: 2px solid rgba(0, 0, 0, 30%);   
+}
+.border{
+    border-bottom: 2px solid rgba(0, 0, 0, 30%);
+}
+.normaLijevo{
+    position: relative;
+    margin-right: auto;
+    margin-left: 1rem;
+}
+.normaDesno{
+    position: relative;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.x:hover{
+color: red;
+}

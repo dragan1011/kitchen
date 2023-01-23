@@ -1,0 +1,31 @@
+.dijeteWrapper{
+    position: relative;
+    margin: 0 5px;
+    margin-top: 1rem;
+}
+.cell{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.velikiRed{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.row{
+    display: flex;
+    cursor: pointer;
+}
+.prvi{
+    width: 35%;
+    font-weight: bold;
+    border-right: 1px solid rgba(0, 0, 0, 30%);
+}
+.naziv{
+    width: 23.3%;
+    justify-content: center;
+    font-weight: bold;
+    border-right: 1px solid rgba(0, 0, 0, 30%);
+}
